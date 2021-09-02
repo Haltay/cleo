@@ -1,0 +1,10 @@
+.imageTop {
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.imageTop img {
+  max-width: 100%;
+  max-height: 100%;
+}
