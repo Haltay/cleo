@@ -1,0 +1,10 @@
+.imageBottom {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.imageBottom img {
+  width: 100%;
+  height: 100%;
+}
