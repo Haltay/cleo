@@ -1,0 +1,15 @@
+.footerLeft {
+    display: flex;
+    flex: 50%;
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+
+.footerLeft img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50px;
+}

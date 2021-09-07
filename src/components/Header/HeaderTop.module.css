@@ -2,9 +2,16 @@
   display: flex;
   justify-content: center;
   object-fit: contain;
+  margin-top: -75px;
 }
 
 .imageTop img {
   max-width: 100%;
   max-height: 100%;
+}
+
+@media only screen and (max-width: 650px) { 
+  .imageTop {
+    margin-top: -20px;
+  }
 }

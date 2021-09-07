@@ -1,0 +1,23 @@
+.footerContent {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 50%;
+  margin-top: 3.5%;
+}
+
+.footerContentTitle {
+  font-size: 28px;
+}
+
+.footerContentList {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerContentList ul {
+  padding: 0;
+}
