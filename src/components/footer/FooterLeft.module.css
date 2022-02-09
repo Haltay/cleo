@@ -1,15 +1,23 @@
 .footerLeft {
-    display: flex;
-    flex: 50%;
-    max-height: 100px;
-    max-width: 100px;
-    margin-left: 10%;
-    margin-top: 3%;
-    
+  display: flex;
+  flex: 50%;
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 10%;
+  margin-top: 3%;
 }
 
 .footerLeft img {
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 50px;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+  .footerLeft {
+    display: flex;
+    flex: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }

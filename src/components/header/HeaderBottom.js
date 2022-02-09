@@ -1,6 +1,6 @@
 import React from "react";
 
-import imageBottom from "../../assets/bottomOpti2.jpg";
+import imageBottom from "../../assets/header/bottomOpti.jpg";
 
 import styles from "./HeaderBottom.module.css";
 

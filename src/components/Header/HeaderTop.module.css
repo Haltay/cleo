@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   object-fit: contain;
-  margin-top: -75px;
 }
 
 .imageTop img {
@@ -12,6 +11,7 @@
 
 @media only screen and (max-width: 650px) { 
   .imageTop {
-    margin-top: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }

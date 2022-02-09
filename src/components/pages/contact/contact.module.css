@@ -1,0 +1,20 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 2rem;
+}
+
+.content {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+
+}

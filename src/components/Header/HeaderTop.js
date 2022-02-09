@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imageTop from '../../assets/top.jpg'
+import imageTop from '../../assets/header/top.jpg'
 
 import styles from './HeaderTop.module.css';
 

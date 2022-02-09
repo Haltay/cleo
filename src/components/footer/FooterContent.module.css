@@ -5,6 +5,7 @@
   align-items: center;
   flex: 50%;
   margin-top: 3.5%;
+  margin-left: -15%;
 }
 
 .footerContentTitle {
@@ -20,4 +21,10 @@
 
 .footerContentList ul {
   padding: 0;
+}
+
+@media only screen and (max-width: 650px) {
+  .footerContent{
+    margin-left: 0;
+  }
 }

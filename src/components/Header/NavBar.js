@@ -1,29 +1,71 @@
+import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 
-import facebookLogo from "../../assets/facebookLogo.svg";
-import "./NavBar.css";
-import ReorderIcon from '@material-ui/icons/Reorder';
+import facebookLogo from "../../assets/header/facebookLogo.svg";
+import "./navbar.css";
 
 const Navbar = () => {
-
   const [showLinks, setShowLinks] = useState(false);
+
+  const NoScroll = () => {
+    document.body.classList.toggle("no-scroll");
+  };
+  const handleShowLinks = () => {
+    setShowLinks(!showLinks);
+    NoScroll();
+  };
 
   return (
     <div className="navbar">
       <div className="leftSide">
-        <div className="links" id={showLinks ? "hidden" : ""}>
-          <a href="/home">Home</a>
-          <a href="/info">Info</a>
-          <a href="/about">About</a>
-          <a href="/gallery">Gallery</a>
-          <a href="/contact">Contact</a>
-        </div>
-        <button onClick={() => setShowLinks(!showLinks) }> 
-          <ReorderIcon />  
-        </button>
+        <nav className={`links ${showLinks ? "showNav" : "hideNav"} `}>
+          <ul className="link">
+            <NavLink
+              activeClassName="active"
+              to="/home"
+              onClick={handleShowLinks}
+            >
+              HOME
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              to="/info"
+              onClick={handleShowLinks}
+            >
+              GENERAL INFORMATION
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              to="/about"
+              onClick={handleShowLinks}
+            >
+              ABOUT US
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              to="/gallery"
+              onClick={handleShowLinks}
+            >
+              GALLERY
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              to="/contact"
+              onClick={handleShowLinks}
+            >
+              CONTACT US
+            </NavLink>
+          </ul>
+
+          <button className="navbarBurger" onClick={handleShowLinks}>
+            <span className="burgerBar"></span>
+          </button>
+        </nav>
       </div>
       <div className="rightSide">
-        <img src={facebookLogo} alt="facebook-link" />
+        <a href="https://www.facebook.com/CleoChildminding" target="facebook">
+          <img src={facebookLogo} alt="facebook-link" />
+        </a>
       </div>
     </div>
   );
