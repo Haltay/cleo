@@ -1,0 +1,29 @@
+.about {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.about__image {
+  display: flex;
+  justify-content: center;
+}
+
+.about__image img {
+  max-width: 23%;
+  max-height: 23%;
+  object-fit: cover;
+  margin: 1%;
+}
+
+.descriptionLink {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.descriptionLink a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+}

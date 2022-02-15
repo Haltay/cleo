@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import styles from "./home.module.css";
 
 import image1 from "../../../assets/home/54356091_268044324126929_7880109349899599872_n.jpg";
@@ -24,8 +26,14 @@ const Home = () => {
             environment as well as a beautiful garden. It is close to woodlands,
             fields and beaches offering many opportunities for outdoor play.
           </p>
-          <p>Contact Us</p>
-          <p>Find out more about Cleo Chidminding</p>
+
+          <p className={styles.descriptionLink}>
+            <Link to="/contact">Contact Us</Link>
+          </p>
+
+          <p className={styles.descriptionLink}>
+            <Link to="/about"> Find out more about Cleo Chidminding</Link>
+          </p>
         </div>
       </section>
 
@@ -40,9 +48,11 @@ const Home = () => {
               en-gaged every day.
               <br />
               She also listens to parents and tries to follow kids routine as
-              much as possible. My youngest boy spends 3 days with Cecile and he
-              got used to her very quickly. My older boy spends 1 afternoon a
-              week with her and is always excited to go there.
+              much as possible.
+              <br />
+              My youngest boy spends 3 days with Cecile and he got used to her
+              very quickly. My older boy spends 1 afternoon a week with her and
+              is always excited to go there.
               <br />
               I leave my kids without any worry and I just can't recommend
               Cecile enough.

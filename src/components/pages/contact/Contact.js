@@ -7,19 +7,19 @@ const Contact = () => {
   return (
     <div className={styles.contact}>
       <h2>Contact</h2>
-      <div className={styles.content}>
-        If you have any queries please contact us using the information below.
+      <div className={styles.contactAddress}>
+        <p> Cleo Childminding,</p>
+        <p>Dawson Place, BO’NESS, EH51 0NP</p>
       </div>
-      <div className={styles.content}>
+      <div className={styles.contactContent}>
+        <p className={styles.contactContentIntro}>If you have any queries please contact us using the information below.</p>
         <ContactForm />
-      </div>
-      <div className={styles.content}>
-        <p>
-          or on <br /> <br />
+        <p className={styles.contactContentBottom}>
+          or on <br /> <br /></p>
           <a href="https://www.facebook.com/CleoChildminding" target="facebook">
-            My Facebook
+            <h3>My Facebook</h3>
           </a>
-        </p>
+        
       </div>
     </div>
   );

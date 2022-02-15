@@ -2,18 +2,19 @@ import image1 from "../../../assets/gallery/54356091_268044324126929_78801093498
 import image2 from "../../../assets/gallery/54516419_393507164538410_4446565876178616320_n.jpg";
 import image3 from "../../../assets/gallery/54518998_376326252952952_7854661187634462720_n.jpg";
 
-const GalleryImage = [
+const galleryImage = [
   {
     image: { image1 },
+    title: "l'image du corbeau",
   },
-
   {
     image: { image2 },
+    title: "l'image du renard",
   },
-
   {
     image: { image3 },
+    title: "l'image du rat",
   },
 ];
 
-export default GalleryImage;
+export default galleryImage;

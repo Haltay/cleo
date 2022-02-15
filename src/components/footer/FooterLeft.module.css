@@ -13,11 +13,16 @@
   border-radius: 50px;
 }
 
-@media only screen and (max-width: 650px) {
+
+/* Tablet */
+@media only screen and (max-width: 768px) and (max-width: 1388px) {
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 767px) {
   .footerLeft {
-    display: flex;
-    flex: 100%;
-    align-items: center;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;    
   }
 }

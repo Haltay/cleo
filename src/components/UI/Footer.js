@@ -1,5 +1,3 @@
-import React from "react";
-
 import FooterLeft from "../footer/FooterLeft";
 import FooterContent from "../footer/FooterContent";
 import FooterBottom from "../footer/FooterBottom";
