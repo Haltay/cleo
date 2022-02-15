@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-/*   TABLET   */
+  /* TABLET  
 
 @media only screen 
   and (min-device-width: 768px) 
@@ -97,11 +97,13 @@
   .link a {
     margin-top: 0.3rem;
   }
-}
+} */
 
 /*   SMARTPHONE   */
 
-@media only screen and (max-width: 767px) {
+@media only screen 
+  and (max-device-width: 1388px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
   body {
     height: 100%;
  }
