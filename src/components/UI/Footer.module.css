@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3.5rem;
+    background-color: rgb(247, 247, 247);
+}
+
+@media only screen and (max-width: 650px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
