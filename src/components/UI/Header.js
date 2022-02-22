@@ -1,8 +1,8 @@
 import React from "react";
 
-import HeaderTop from "../header/HeaderTop"
-import NavBar from "../header/NavBar";
-import HeaderBottom from "../header/HeaderBottom";
+import HeaderTop from "../Header/HeaderTop";
+import NavBar from "../Header/NavBar";
+import HeaderBottom from "../Header/HeaderBottom";
 
 const Header = () => {
   return (

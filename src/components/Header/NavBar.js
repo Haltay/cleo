@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 
 import facebookLogo from "../../assets/header/facebookLogo.svg";
-import "./navbar.css";
+import "./NavBar.css";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
