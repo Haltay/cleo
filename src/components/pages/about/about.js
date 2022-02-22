@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import image1 from "../../../assets/about/54356091_268044324126929_7880109349899599872_n.jpg";
+import imageCleo from "../../../assets/about/cleo.jpg";
 
 import styles from "./about.module.css";
 
@@ -10,7 +10,7 @@ const About = () => {
       <section className={styles.about}>
         <h1>About</h1>
         <div className={styles.about__image}>
-          <img src={image1} alt="cleochildminding-tree" />
+          <img src={imageCleo} alt="cleochildminding-Cleo" />
         </div>
 
         <div className={styles.aboutContent}>
