@@ -6,7 +6,7 @@ import styles from "./contact.module.css";
 const Contact = () => {
   return (
     <div className={styles.contact}>
-      <h2>Contact</h2>
+      <h1>Contact</h1>
       <div className={styles.contactAddress}>
         <p> Cleo Childminding,</p>
         <p>Dawson Place, BO’NESS, EH51 0NP</p>

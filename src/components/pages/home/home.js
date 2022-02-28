@@ -8,7 +8,35 @@ import image2 from "../../../assets/home/54518998_376326252952952_78546611876344
 const Home = () => {
   return (
     <>
-      <h1 className={styles.title}>WELCOME TO CLEO CHILDMINDING</h1>
+      <h1 className={styles.title}>
+        <span style={{ color: "#C11977" }}>W</span>
+        <span style={{ color: "#C00C0B" }}>E</span>
+        <span style={{ color: "#D76435" }}>L</span>
+        <span style={{ color: "#E9D76A" }}>C</span>
+        <span style={{ color: "#5FC54E" }}>O</span>
+        <span style={{ color: "#53D4F0" }}>M</span>
+        <span style={{ color: "#466A8A" }}>E</span>{" "}
+
+        <span style={{ color: "#B827E5" }}>T</span>
+        <span style={{ color: "#E9D76A" }}>O</span>{" "}
+        <span style={{ color: "#E26690" }}>C</span>
+        <span style={{ color: "#C00C0B" }}>L</span>
+        <span style={{ color: "#ED7827" }}>E</span>
+        <span style={{ color: "#E9D76A" }}>O</span>{" "}
+        <span style={{ color: "#5FC54E" }}>C</span>
+        <span style={{ color: "#61C2D1" }}>H</span>        
+        <span style={{ color: "#355881" }}>I</span>
+
+        <span style={{ color: "#B827E5" }}>L</span>
+        <span style={{ color: "#E9D76A" }}>D</span>        
+        <span style={{ color: "#C11977" }}>M</span>
+        <span style={{ color: "#C00C0B" }}>I</span>
+        <span style={{ color: "#D76435" }}>N</span>
+        <span style={{ color: "#E9D76A" }}>D</span>
+        <span style={{ color: "#5FC54E" }}>I</span>
+        <span style={{ color: "#53D4F0" }}>N</span>
+        <span style={{ color: "#466A8A" }}>G</span>
+      </h1>
       <section>
         <div className={styles.description}>
           <p>
@@ -38,7 +66,9 @@ const Home = () => {
       </section>
 
       <section>
-        <h2 className={styles.titleh2}>Testimonials</h2>
+        <h2 className={styles.titleh2}>
+        Testimonials     
+        </h2>
         <div className={styles.homeTestimonial}>
           <div className={styles.homeTestimonialContainer}>
             <p>
@@ -61,7 +91,7 @@ const Home = () => {
             </p>
             <div className={styles.testimonialImage}>
               <img src={image1} alt="cleochildminding-testimonial" />
-              <img src={image2} alt="cleochildminding-testimonial" />
+              
             </div>
           </div>
 
@@ -83,7 +113,7 @@ const Home = () => {
             </p>
             <div className={styles.testimonialImage}>
               <img src={image2} alt="cleochildminding-testimonial" />
-              <img src={image1} alt="cleochildminding-testimonial" />
+              
             </div>
           </div>
         </div>
