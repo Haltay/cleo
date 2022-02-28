@@ -3,7 +3,10 @@ import styles from "./info.module.css";
 const Info = () => {
   return (
     <section className={styles.info}>
-      <h1>Cleo Chilminding Information</h1>
+      <h1>
+        Cleo Chilminding Information
+        
+      </h1>
       <p>
         The service is currently full at the moment and I have a waiting list
         for children ready to start in August 2022. I am happy to chat, so
