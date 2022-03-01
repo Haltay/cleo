@@ -1,6 +1,6 @@
 import React from "react";
 
-import imageLeft from "../../assets/footer/logo.jpg";
+import imageLeft from "../../assets/footer/logoCleo.png";
 import styles from "./FooterLeft.module.css";
 
 const FooterLeft = () => {

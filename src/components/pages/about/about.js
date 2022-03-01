@@ -8,10 +8,7 @@ const About = () => {
   return (
     <>
       <section className={styles.about}>
-        <h1>
-          About
-
-        </h1>
+        <h1> About</h1>
 
         <div className={styles.aboutContainer}>
           <div className={styles.about__image}>

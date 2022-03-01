@@ -7,7 +7,6 @@
 
 .about h1 {
   color: #0b1827;
-
 }
 
 .aboutContainer {
@@ -15,19 +14,18 @@
   flex-wrap: wrap;
 }
 
-.about__image { 
+.about__image {
   justify-content: start;
   width: 14%;
- 
 }
 
 .about__image img {
-max-width: 100%;
+  max-width: 100%;
   object-fit: cover;
   margin: 1%;
 }
 
-.aboutContentDescription {  
+.aboutContentDescription {
   justify-content: end;
   width: 83%;
   margin-left: auto;
@@ -44,4 +42,42 @@ max-width: 100%;
   text-decoration: none;
   color: blue;
   font-weight: 600;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1388px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* .homeTestimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .homeTestimonialContainer {
+    width: 85%;
+    text-align: justify;
+  } */
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 767px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+  }
+
+  .about__image {
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+  }
+
+  .aboutContentDescription {
+    width: 100%;
+  }
 }
