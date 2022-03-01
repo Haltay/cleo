@@ -33,6 +33,7 @@ import image32 from "../../../assets/gallery/32.jpg";
 import image33 from "../../../assets/gallery/33.jpg";
 import image34 from "../../../assets/gallery/34.jpg";
 
+
 let dataImg = [
   {
     id: 1,
