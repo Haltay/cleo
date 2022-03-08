@@ -37,138 +37,172 @@ let dataImg = [
   {
     id: 1,
     imgSrc: image1,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 2,
     imgSrc: image2,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 3,
     imgSrc: image3,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 4,
     imgSrc: image4,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 5,
     imgSrc: image5,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 6,
     imgSrc: image6,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 7,
     imgSrc: image7,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 8,
     imgSrc: image8,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 9,
     imgSrc: image9,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 10,
     imgSrc: image10,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 11,
     imgSrc: image11,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 12,
     imgSrc: image12,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 13,
     imgSrc: image13,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 14,
     imgSrc: image14,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 15,
     imgSrc: image15,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 16,
     imgSrc: image16,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 17,
     imgSrc: image17,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 18,
     imgSrc: image18,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 19,
     imgSrc: image19,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 20,
     imgSrc: image20,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 21,
     imgSrc: image21,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 22,
     imgSrc: image22,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 23,
     imgSrc: image23,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 24,
     imgSrc: image24,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 25,
     imgSrc: image25,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 26,
     imgSrc: image26,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 27,
     imgSrc: image27,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 28,
     imgSrc: image28,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 29,
     imgSrc: image29,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 30,
     imgSrc: image30,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 31,
     imgSrc: image31,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 32,
     imgSrc: image32,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 33,
     imgSrc: image33,
+    alt: "Cleo Childminding Activities"
   },
   {
     id: 34,
     imgSrc: image34,
+    alt: "Cleo Childminding Activities"
   },
 ];
 

@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 
 import styles from "./home.module.css";
 
-import image1 from "../../../assets/home/54356091_268044324126929_7880109349899599872_n.jpg";
-import image2 from "../../../assets/home/54518998_376326252952952_7854661187634462720_n.jpg";
+import image1 from "../../../assets/home/Testimonial-1.jpg";
+import image2 from "../../../assets/home/Testimonial-2.jpg";
+import image3 from "../../../assets/home/Testimonial-3.jpg";
+
 
 const Home = () => {
   return (
@@ -16,7 +18,6 @@ const Home = () => {
         <span style={{ color: "#5FC54E" }}>O</span>
         <span style={{ color: "#53D4F0" }}>M</span>
         <span style={{ color: "#466A8A" }}>E</span>{" "}
-
         <span style={{ color: "#B827E5" }}>T</span>
         <span style={{ color: "#E9D76A" }}>O</span>{" "}
         <span style={{ color: "#E26690" }}>C</span>
@@ -24,11 +25,10 @@ const Home = () => {
         <span style={{ color: "#ED7827" }}>E</span>
         <span style={{ color: "#E9D76A" }}>O</span>{" "}
         <span style={{ color: "#5FC54E" }}>C</span>
-        <span style={{ color: "#61C2D1" }}>H</span>        
+        <span style={{ color: "#61C2D1" }}>H</span>
         <span style={{ color: "#355881" }}>I</span>
-
         <span style={{ color: "#B827E5" }}>L</span>
-        <span style={{ color: "#E9D76A" }}>D</span>        
+        <span style={{ color: "#E9D76A" }}>D</span>
         <span style={{ color: "#C11977" }}>M</span>
         <span style={{ color: "#C00C0B" }}>I</span>
         <span style={{ color: "#D76435" }}>N</span>
@@ -66,9 +66,7 @@ const Home = () => {
       </section>
 
       <section>
-        <h2 className={styles.titleh2}>
-        Testimonials     
-        </h2>
+        <h2 className={styles.titleh2}>Testimonials</h2>
         <div className={styles.homeTestimonial}>
           <div className={styles.homeTestimonialContainer}>
             <p>
@@ -91,7 +89,6 @@ const Home = () => {
             </p>
             <div className={styles.testimonialImage}>
               <img src={image1} alt="cleochildminding-testimonial" />
-              
             </div>
           </div>
 
@@ -113,7 +110,27 @@ const Home = () => {
             </p>
             <div className={styles.testimonialImage}>
               <img src={image2} alt="cleochildminding-testimonial" />
-              
+            </div>
+          </div>
+
+          <div className={styles.homeTestimonialContainer}>
+            <p>
+              My Daughter attends Cleo Childminding and absolutely loves it. So
+              much so that she often doesn’t want to leave such is her
+              enjoyment!
+              <br />
+              She has come on so much and we love seeing the progress our
+              daughter is making through the wonderful pictures that she shares
+              with us. Cecile even keeps a book that lovingly details our
+              daughters progress and is a joy to look over filled with images
+              and arts and crafts from their time together.
+              <br />
+              We highly recommend Cecile and are grateful to have found her, she
+              genuinely cares and is wonderful at her job.
+              <br /> Thank you! 😊
+            </p>
+            <div className={styles.testimonialImage}>
+              <img src={image3} alt="cleochildminding-testimonial" />
             </div>
           </div>
         </div>

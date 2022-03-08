@@ -46,11 +46,16 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 .homeTestimonialContainer {
   width: 45%;
+   margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
   text-align: justify;
 }
 
@@ -58,13 +63,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%; 
 }
 
 .testimonialImage img {
-  width: 300px;
-  height: 300px;
+  height: 450px;
+  overflow: hidden;
   object-fit: cover;
   margin: 1%;
 }

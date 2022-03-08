@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 import styles from "./info.module.css";
 
 const Info = () => {
@@ -38,7 +40,9 @@ const Info = () => {
         <h3>Thinking of joining the setting?</h3>
         <p>
           Get in touch and I can answer any questions you have, let you know
-          availability for your child’s age group. (contact page link)
+          availability for your child’s age group. <Link to="/contact">
+               Contact me
+              </Link>
         </p>
         <p>
           The best way to find out if Cleo childminding is the right place for

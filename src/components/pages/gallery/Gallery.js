@@ -31,7 +31,7 @@ const Gallery = () => {
               key={index}
               onClick={() => getImg(item.imgSrc)}
             >
-              <img src={item.imgSrc} alt="" />
+              <img src={item.imgSrc} alt={item.alt} />
             </div>
           );
         })}
